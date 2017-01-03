@@ -20,11 +20,6 @@
 
       $(window).on('hashchange', refreshPage);
 
-      $('body').delegate('a', 'click', function(event){
-        event.preventDefault();
-        window.location.hash = $(event.target).attr('href');
-      });
-
       refreshPage();
     });
     </script>

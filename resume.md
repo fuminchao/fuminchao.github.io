@@ -4,7 +4,7 @@
 ## Minchao Fu
 * _Gender_ Male
 * _DOB_    Mar, 1985
-* _Email_  fuminchao@outlook.com
+* _Email_  [fuminchao@outlook.com](mailto:fuminchao@outlook.com)
 * _MP_     +86-13482727157
 
 
