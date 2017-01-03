@@ -15,7 +15,7 @@
       }
 
       $(window).on('hashchange', function(){
-        $.ajax(window.location.hash, {dataType:'text'}).then(function(md){
+        $.ajax(window.location.hash.substr(1), {dataType:'text'}).then(function(md){
           $('div.markup').empty().append(converter.makeHtml(md));
         });
       })
