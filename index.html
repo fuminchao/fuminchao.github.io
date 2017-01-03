@@ -8,24 +8,21 @@
     <script src="http://cdn.bootcss.com/showdown/1.4.1/showdown.min.js"></script>
     <script>
     $(document).ready(function(){
-      var converter = new showdown.Converter();
-
-      var go = function(link) {
-        window.location.hash = link;
-      }
-
-      $(window).on('hashchange', function(){
-        $.ajax(window.location.hash.substr(1), {dataType:'text'}).then(function(md){
-          $('div.markup').empty().append(converter.makeHtml(md));
+      var conv = new showdown.Converter();
+      var refreshPage = function(){
+        $.ajax((window.location.hash || '#README.md').substr(1), {dataType:'text'}).then(function(md){
+          $('div.markup').empty().append(conv.makeHtml(md));
         });
-      })
+      };
+
+      $(window).on('hashchange', refreshPage);
 
       $('body').delegate('a', 'click', function(event){
         event.preventDefault();
-        go( $(event.target).attr('href') );
+        window.location.hash = $(event.target).attr('href');
       });
 
-      go('README.md');
+      refreshPage();
     });
     </script>
   </body>
