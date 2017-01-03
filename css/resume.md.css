@@ -1,0 +1,12 @@
+#minchaofu + ul li em {
+  display: inline-block;
+  width: 3.5rem;
+}
+
+#minchaofu + ul li em:after {
+  content: ":";
+}
+
+#minchaofu + ul li strong {
+  text-indent: 1em;
+}

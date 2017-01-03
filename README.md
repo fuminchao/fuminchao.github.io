@@ -1,2 +1,3 @@
 # fuminchao.github.io
-My site
+
+### [My Resume](#resume.md)
