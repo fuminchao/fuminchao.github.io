@@ -10,8 +10,8 @@
 
 ## Summaries
 
-* 10+ years' experience in software development (include 1 year of full-time internship).
-* 5+ years' experience in development team leading and coaching.
+* 14+ years' experience in software development (include 1 year of full-time internship).
+* 9+ years' experience in development team leading and coaching.
 * Expert in Java and Web application. Proficient in JQuery, Angularjs, Vuejs and Bootstrap.
 * Experience with software development full life cycle management and execution.
 * Good experience in scripts programming and Linux development server management.
@@ -20,7 +20,14 @@
 
 ## Experiences
 
-_Aug 2015 - Present_
+_Dec 2018 - Present_
+
+eBay Shanghai center - MTS2
+
+Technical architect of emerging market, of eBay Classified Group
+
+
+_Aug 2015 - Dec 2018_
 
 Blackboard R&D Center, Shanghai - Staff engineer and Technical architect
 
