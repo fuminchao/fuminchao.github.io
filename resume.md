@@ -38,7 +38,7 @@ Mainly worked on Learn, the core product of Blackboard Inc, which is web-based l
 *  Refine frontend / backend building scripts to speedup the CI processes.
 *  Develop development router to connect core product and new UI, which supports request-mocking, response rewriting.
 *  Extent REST-API framework for supporting batch requests, document generating, permission-on-fields and expandable-fields.
-*  Lead a group on scripts development fo rwhole team to ease routine activities.
+*  Lead a group on scripts development fo whole team to ease routine activities.
 *  Maintain instances for testing and development on Linux.
 *  Coaching and mentoring.
 
